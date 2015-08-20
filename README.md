@@ -14,4 +14,4 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/make_my_day.
+Bug reports and pull requests are welcome on GitHub at https://github.com/darwingr/make_my_day.
