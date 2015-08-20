@@ -21,6 +21,13 @@
 ## object class
 
 - Spreadsheet (in)
-- Button
+  - read a csv file
+
 - Session
-- Calendar
+  - 
+
+- Button
+  - renders the html with session data
+
+- Calendar (out)
+  - assemble the buttons for all the sessions
