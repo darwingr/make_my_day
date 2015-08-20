@@ -1,2 +1,2 @@
 require 'pry'
-require 'MakeMyDay'
+require 'make_my_day'
