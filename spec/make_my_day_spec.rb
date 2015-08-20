@@ -3,7 +3,7 @@ require 'spec_helper'
 describe MakeMyDay do
   describe '#' do
     it 'be' do
-      puts 'Sugar, a lot of sugar'
+      print 'Sugar, a lot of sugar'
       # setup
       # exercise
       # verify
@@ -14,7 +14,7 @@ end
 describe Session do
   describe '#' do
     it 'be' do
-      puts 'Be on time'
+      print "\nBe on time"
       # setup
       # exercise
       # verify
@@ -25,7 +25,7 @@ end
 describe Button do
   describe '#' do
     it 'be' do
-      puts 'I gotsta know'
+      print "\nI gotsta know"
       # setup
       # exercise
       # verify
@@ -36,7 +36,7 @@ end
 describe Spreadsheet do
   describe '#' do
     it 'be' do
-      puts 'Did he fire 6 shots or only 5'
+      print "\nDid he fire 6 shots or only 5"
       # setup
       # exercise
       # verify
@@ -47,7 +47,7 @@ end
 describe Calendar do
   describe '#' do
     it 'be' do
-      puts 'Go ahead, make it'
+      print "\nGo ahead, make it"
       # setup
       # exercise
       # verify
