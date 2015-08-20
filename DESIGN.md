@@ -24,7 +24,7 @@
   - read a csv file
 
 - Session
-  - 
+  - validates session data fetched from interface (spreadsheet)
 
 - Button
   - renders the html with session data
