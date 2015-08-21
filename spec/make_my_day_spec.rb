@@ -50,7 +50,9 @@ describe Button do
 
   describe '#source_root' do
     it 'tells where to find our button template' do
-      expect(self.source_root).to be('lib/templates')
+      path = Button.source_root
+
+      expect(path).to end_with('make_my_day/lib/templates')
     end
   end
 end
