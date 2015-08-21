@@ -11,6 +11,17 @@ describe MakeMyDay do
   end
 end
 
+describe Spreadsheet do
+  describe '#' do
+    it 'be' do
+      print "\nDid he fire 6 shots or only 5"
+      # setup
+      # exercise
+      # verify
+    end
+  end
+end
+
 describe Session do
   describe '#' do
     it 'be' do
@@ -23,23 +34,23 @@ describe Session do
 end
 
 describe Button do
-  describe '#' do
-    it 'be' do
+  describe '#build' do
+    it 'builds session data into a template' do
       print "\nI gotsta know"
       # setup
+      button = Button.new
+
       # exercise
+      button.build
+
       # verify
+      exptect().to be()
     end
   end
-end
 
-describe Spreadsheet do
-  describe '#' do
-    it 'be' do
-      print "\nDid he fire 6 shots or only 5"
-      # setup
-      # exercise
-      # verify
+  describe '#source_root' do
+    it 'tells where to find our button template' do
+      expect(self.source_root).to be('lib/templates')
     end
   end
 end
