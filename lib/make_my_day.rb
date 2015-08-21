@@ -25,6 +25,10 @@ class Button
   def initialize
     @button = button
   end
+
+  def self.source_root
+    File.dirname(__FILE__) + '/templates'
+  end
 end
 
 # output data destination
